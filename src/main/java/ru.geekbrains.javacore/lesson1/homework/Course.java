@@ -6,9 +6,21 @@ public class Course {
 
     }
 
-    public static void main(String[] args) {
-        Course c = new Course();
+    public void doIt(Team team){
+        Member[] members = team.members;
+        for (Member member : members) {
+            run(member);
+            jump(member);
+        }
     }
 
-    public void doIt(){}
+    public void run(Member member) {
+        System.out.println(member.name + " пробежал ");
+        member.setRun(true);
+    }
+
+    public void jump(Member member) {
+        System.out.println(member.name + " прыгнул");
+        member.setJump(true);
+    }
 }

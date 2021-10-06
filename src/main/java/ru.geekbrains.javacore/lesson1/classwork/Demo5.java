@@ -1,4 +1,4 @@
-package ru.geekbrains.qa.java2.lesson1;
+package ru.geekbrains.javacore.lesson1.classwork;
 
 /* Презентация " Конструкторы". */
 public class Demo5 {
